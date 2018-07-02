@@ -119,8 +119,11 @@ function react (x) {
     checkWin();
     same(x);
     }
+    else if (squares === 10) {
+        same();
+    }
     else {
-        alert('Nope');
+        alert('Nope!');
     }
 }
 
