@@ -68,10 +68,10 @@ table {
 .g {
     display:block;
     margin: auto;
-    height: 100;
-    width: 100;
+    height: 100px;
+    width: 100px;
     background-color: lightblue;
-    font-size: 90;
+    font-size: 90px;
     
 }
 td {
