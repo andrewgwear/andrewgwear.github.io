@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src='script.js'></script>
+</head>
+<body>
+  
+  <h1>
+   Tic Tac Toe
+  </h1>
+  
+  <h2>
+  Win &nbsp &nbsp  Lose &nbsp &nbsp Tie
+  </h2>
+  
+  <div class='sb'>
+    <div class='sbg' id ='sbg1'>
+    
+    </div>
+    <div class='sbg' id ='sbg2'>
+    
+    </div>
+    <div class='sbg' id ='sbg3'>
+    
+    </div>
+  </div>
+  
+  <div class='wrap' id ='wrap'>
+    <button class='s' onclick = "start()">
+        START
+    </button>
+  </div>
+  
+  <div class="grid" id='grid'>
+    <div id="d1"><button class='g' id='1' onclick = "myFunction('1')"></button> </div>
+    <div class="d2"><button class='g' id='2' onclick = "myFunction('2')"></button> </div>
+    <div class="d3"><button class='g' id='3' onclick = "myFunction('3')"></button> </div>
+    <div class="d4"><button class='g' id='4' onclick = "myFunction('4')"></button> </div>
+    <div class="d5"><button class='g' id='5' onclick = "myFunction('5')"></button> </div>
+    <div class="d6"><button class='g' id='6' onclick = "myFunction('6')"></button> </div>
+    <div class="d7"><button class='g' id='7' onclick = "myFunction('7')"></button> </div>
+    <div class="d8"><button class='g' id='8' onclick = "myFunction('8')"></button> </div>
+    <div class="d9"><button class='g' id='9' onclick = "myFunction('9')"></button> </div>
+  </div>
+  
+  <script>
+    document.getElementById('gid').onclick = function() {myFunction()};
+  </script>
 
+
+</body>
+</html>
