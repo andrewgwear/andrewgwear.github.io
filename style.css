@@ -7,4 +7,9 @@ h1 {
 .list1 {
   text-align:center;
   color: #4F22AA;
+  font-size: 1.5em;
+}
+li {
+  margin: 30px;
+  list-style-position: inside;
 }
