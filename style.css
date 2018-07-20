@@ -13,10 +13,4 @@ li {
   margin: 30px;
   list-style-position: inside;
 }
-html { 
-  background: Terrifying.png/ no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
