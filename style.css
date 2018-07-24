@@ -22,14 +22,12 @@ li {
 html{
   background: url('andrewgwear.github.io/Terrifying.png');
 }
-.navbar {
+.navBar {
   list-style-type:none;
   width: 100%;
   height: 100px;
-  background: #000;
-  @include gradientHorizontal(#2f2f2f, #000000, 0, 40%);
-  transition: background .5s ease, height .6s ease;
+  background-color: rgba(31, 14, 14, 0.5);
   }
-.navbar li {
-  display: inline;
+.navBar li {
+  display: inline-block;
 }
