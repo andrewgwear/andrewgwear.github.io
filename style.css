@@ -32,4 +32,9 @@ html{
   display: inline-block;
   font-size: 1.25em;
   color: yellow;
+  margin: 20px;
+}
+.navBar a {
+  color: yellow;
+  text-decoration: none;
 }
