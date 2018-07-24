@@ -22,3 +22,10 @@ li {
 html{
   background: url('andrewgwear.github.io/Terrifying.png');
 }
+ul {
+  list-style-type:none;
+  margin: 50px 50px 50px 50px;
+  }
+li {
+  display: inline;
+}
