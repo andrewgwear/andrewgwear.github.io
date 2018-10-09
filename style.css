@@ -49,4 +49,5 @@ navBarhider {
   height: 5px;
   margin: 6px 0;
   display: block;
+  z-index 999;
 }
