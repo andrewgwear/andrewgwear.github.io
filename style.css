@@ -34,7 +34,7 @@ html{
   }
 
 .navBar li {
-  display:inline;
+  display:inline-block;
   font-size: 1.25em;
   color: black;
   margin: 20px;
