@@ -43,7 +43,7 @@ html{
   color: yellow;
   text-decoration: none;
 }
-navBarhider div {
+navBarhider {
   background-color: black;
   width: 35px;
   height: 5px;
