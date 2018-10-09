@@ -44,7 +44,7 @@ html{
   text-decoration: none;
 }
 navBarhider div {
-  color: black;
+  background-color: black;
   width: 35px;
   height: 5px;
   margin: 6px 0;
