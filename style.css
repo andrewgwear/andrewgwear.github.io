@@ -51,3 +51,6 @@ html{
   display: block;
   z-index:999;
 }
+.navBarButton {
+  margin-top: 20px;
+}
