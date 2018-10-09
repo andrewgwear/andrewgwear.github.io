@@ -43,3 +43,10 @@ html{
   color: yellow;
   text-decoration: none;
 }
+navBarhider li {
+  color: black;
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  display: block;
+}
