@@ -4,7 +4,7 @@ h1 {
   margin: auto;
   text-align: center;
   width: 1000px;
-  background-color: aliceblue;
+  background-color: lightblue;
 }
 .list1 {
   color: #4F22AA;
@@ -31,7 +31,7 @@ html{
   list-style-type:none;
   width: 100;
   height: 60px;
-  background-color: aliceblue;
+  background-color: lightblue;
   }
 
 .navBar li {
