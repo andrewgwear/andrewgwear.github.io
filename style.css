@@ -38,6 +38,7 @@ html{
   font-size: 1.25em;
   color: black;
   margin: 20px;
+  vertical-align:middle;
 }
 .navBar a {
   color: black;
@@ -52,5 +53,6 @@ html{
   z-index:999;
 }
 .navBarButton {
-  margin-top: 20px;
+  margin-top: 8px;
+  vertical-align:middle;
 }
