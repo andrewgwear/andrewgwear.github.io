@@ -51,7 +51,7 @@ html{
   margin: 6px 0px;
 }
 .navBarButton {
-  margin-top: 8px;
+  position: fixed;
   vertical-align:middle;
 }
 .hider {
