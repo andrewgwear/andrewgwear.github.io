@@ -63,3 +63,6 @@ html{
 .nav {
   vertical-align: middle;
 }
+.spacer {
+  height: 100px;
+}
