@@ -43,7 +43,8 @@ html{
   font-size: 1.25em;
   color: black;
   margin: 20px;
-  vertical-align:middle;
+  line-height: 2;
+  margin-left: 40px;  
 }
 .navBar a {
   color: black;
