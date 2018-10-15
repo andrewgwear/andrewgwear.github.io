@@ -60,3 +60,6 @@ html{
 #hider {
   display: none;
 }
+.nav {
+  vertical-align: middle;
+}
