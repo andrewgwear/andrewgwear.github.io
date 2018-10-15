@@ -9,6 +9,7 @@ h1 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-image: radial-gradient(white, ghostWhite, aliceBlue, azure, lightGrey, grey);
+  line-height: 2.5;
 }
 .list1 {
   color: #4F22AA;
