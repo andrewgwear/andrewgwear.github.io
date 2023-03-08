@@ -31,7 +31,7 @@ function start() {
             con = 'win';
             }
         else {
-            alert('That`s not how you play this game');
+            alert('That`s not how you play this game.');
         }
     }
     else if (xOrO == 2) {
@@ -52,7 +52,7 @@ function start() {
             con = 'win';
         }
         else {
-            alert('That`s not how you play this game');
+            alert('That`s not how you play this game.');
         }
     }
     else {
@@ -73,7 +73,7 @@ function start() {
             con = 'win';
         }
         else {
-            alert('That`s not how you play this game');
+            alert('That`s not how you play this game.');
         }
     }
     if (con == 'win') {
@@ -97,8 +97,8 @@ function start() {
             }   
         }
     else if (con == 'lose') {
-        alert('You are '+ choice + '.');
         choice = 'O';
+        alert('You are '+ choice + '.');
         npc = 'X';
         document.getElementById('5').append(npc);
         squares += 1;
@@ -115,6 +115,7 @@ function start() {
 function react (x) {
     if (document.getElementById(x).textContent.length === 0) {
     document.getElementById(x).append(choice);
+    wait(1000);
     squares += 1;
     checkWin();
     same(x);
@@ -255,26 +256,5 @@ function same(x) {
     }
     else {
         alert('Hmm');
-    }
-}
-
-function myFunction(x) {
-    if (choice === ''){
-        start();
-        myFunction(x);
-        
-    }
-    else if (choice == 'O') {
-        if (document.getElementById('5').textContent.length === 0){
-        document.getElementById('5').append(npc);
-        }
-        else {
-            react(x);
-            checkWin();
-        }
-    }
-    else {
-            react(x);
-            checkWin();
     }
 }
