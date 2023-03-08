@@ -226,7 +226,7 @@ function same(x) {
     if (won === 1) {
         clear();
         won -= 1;
-        squares = 1;
+        squares == 1;
         vic += 1;
         document.getElementById('sbg2').innerHTML = (vic);
         alert(vic);
@@ -234,7 +234,7 @@ function same(x) {
     else if (win === 1) {
         clear();
         win -= 1;
-        squares = 1;
+        squares == 1;
         loss += 1;
         document.getElementById('sbg1').innerHTML = (loss);
         alert (loss);
@@ -244,7 +244,7 @@ function same(x) {
         tie +=1;
         document.getElementById('sbg3').innerHTML = (tie);
         clear();
-        squares = 1;
+        squares == 1;
     }
     else if (document.getElementById(comp).textContent.length === 0) {
         document.getElementById(comp).append(npc);
