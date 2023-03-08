@@ -115,7 +115,6 @@ function start() {
 function react (x) {
     if (document.getElementById(x).textContent.length === 0) {
     document.getElementById(x).append(choice);
-    wait(1000);
     squares += 1;
     checkWin();
     same(x);
@@ -256,5 +255,26 @@ function same(x) {
     }
     else {
         alert('Hmm');
+    }
+}
+
+function myFunction(x) {
+    if (choice === ''){
+        start();
+        myFunction(x);
+        
+    }
+    else if (choice == 'O') {
+        if (document.getElementById('5').textContent.length === 0){
+        document.getElementById('5').append(npc);
+        }
+        else {
+            react(x);
+            checkWin();
+        }
+    }
+    else {
+            react(x);
+            checkWin();
     }
 }
