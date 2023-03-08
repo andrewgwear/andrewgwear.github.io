@@ -13,6 +13,7 @@ function start() {
     const ans = prompt ('Rock, paper, scissors... Shoot!').toLowerCase();
     let xOrO = Math.floor(Math.random()*3) + 1;
     let con = '';
+    squares == 1;
     if (xOrO == 1) {
         if (ans == 'paper') {
             alert('You win!');
